@@ -1,0 +1,198 @@
+{
+  "workbench.colorTheme": "Snazzy Operator",
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "cSpell.userWords": [],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "workbench.activityBar.visible": true,
+  "python.languageServer": "Pylance",
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "git.ignoreMissingGitWarning": true,
+  "[scss]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+
+  "explorer.confirmDelete": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.wordWrap": "off",
+  "terminal.integrated.windowsEnableConpty": false,
+  "better-comments.highlightPlainText": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.linkedEditing": true,
+  "cSpell.ignoreWords": [
+    "bgcolor",
+    "moveup",
+    "onkey",
+    "penup",
+    "print",
+    "setx",
+    "sety",
+    "xcor",
+    "ycor"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  // 'Fira code'
+  "editor.fontFamily": "Operator Mono Lig",
+  "editor.fontLigatures": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.lineHeight": 20,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  "debug.console.lineHeight": 20,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "terminal.integrated.fontFamily": "Operator Mono Lig",
+  "files.associations": {
+    "*.js": "javascript",
+    "*.html": "html",
+    "*.jsx": "javascriptreact"
+  },
+  "terminal.integrated.tabs.enabled": false,
+  "editor.autoClosingBrackets": "always",
+  "editor.inlineSuggest.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.productIconTheme": "material-product-icons",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "diffEditor.wordWrap": "off",
+  "gitlens.advanced.messages": {
+    "suppressGitDisabledWarning": true,
+    "suppressGitMissingWarning": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.largeFileOptimizations": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "bracketPairColorizer.depreciation-notice": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.files.associations": {
+    "*.ts": "typescript",
+    "**.json": "json",
+    "**.html": "html",
+    "fileName.ts": "angular"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "php": "C:\\php\\php.exe",
+    "python": "python",
+    "perl": "perl",
+    "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+    "go": "go run",
+    "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "gcc $fileName -o a && ./a.exe",
+    "cpp": "g++ $fileName -o a && ./a.exe"
+  },
+  "C_Cpp.updateChannel": "Insiders"
+}
